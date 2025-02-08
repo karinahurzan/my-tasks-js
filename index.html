@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script src="./js/classes.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My tasks</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+      integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main-block container">
+      <p class="text" id="text">Karina Hurzan</p>
+      <button class="button" id="firstName" type="button">
+        Change First name
+      </button>
+      <button class="button" id="lastName" type="button">
+        Change Last name
+      </button>
+    </div>
+
+    <div class="todo container">
+      <h2 class="todo-head">My to-do project</h2>
+      <ul class="todo-list">
+        <li class="task">
+          <button class="add-button" id="addButton" type="button">
+            <svg class="icon-plus" width="" height="">
+              <use href="./img/icons.svg#icon-plus"></use>
+            </svg>
+          </button>
+          <button class="trash-button" id="trashButton" type="button">
+            <svg class="icon-bin" width="" height="">
+              <use href="./img/icons.svg#icon-bin"></use>
+            </svg>
+          </button>
+          <button class="done-button" id="doneButton" type="button">
+            <svg class="icon-done" width="" height="">
+              <use href="./img/icons.svg#icon-done"></use>
+            </svg>
+          </button>
+          <p class="task-text">something to do</p>
+        </li>
+        
+      </ul>
+      <button class="task-button" id="taskButton" type="button">
+        Add new task
+      </button>
+    </div>
+    <!-- <script src="./js/classes.js"></script> -->
+    <script src="./js/my-form.js"></script>
+  </body>
 </html>

@@ -1,0 +1,125 @@
+body {
+  font-family: "Clash display", sans-serif;
+  color: #3f352f;
+  background-color: #ad8f7b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main-block,
+.todo {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.text {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+}
+
+.button {
+  cursor: pointer;
+  color: #3f352f;
+  background-color: antiquewhite;
+  border: 2px solid #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.2rem;
+  transition: background-color 300ms ease-in-out, border 300ms ease-in-out;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #8f796a;
+  border: 2px solid #614f43;
+}
+
+.todo-head {
+  font-size: 36px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.1;
+  margin-bottom: 20px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.add-button,
+.trash-button,
+.done-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #000000;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.done-button {
+  border: 2px solid #3f352f;
+  border-radius: 5px;
+}
+
+.icon-plus,
+.icon-bin,
+.icon-done {
+  display: block;
+  fill: #614f43;
+  width: 20px;
+  height: 20px;
+}
+
+.task-text {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 1.5;
+}

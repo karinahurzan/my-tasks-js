@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-done" viewBox="0 0 24 24">
+      <path d="M19.781 2.203 24 6.422 8.437 21.985l-8.438-8.438 4.219-4.219 4.219 4.219zm0 2.813L8.437 16.36l-4.219-4.172-1.406 1.359 5.625 5.625 12.75-12.75z"/>
+    </symbol>
+    <symbol id="icon-bin" viewBox="0 0 32 32">
+      <path d="M4 10v20c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V10H4zm6 18H8V14h2v14zm4 0h-2V14h2v14zm4 0h-2V14h2v14zm4 0h-2V14h2v14zM26.5 4H20V1.5c0-.825-.675-1.5-1.5-1.5h-7c-.825 0-1.5.675-1.5 1.5V4H3.5C2.675 4 2 4.675 2 5.5V8h26V5.5c0-.825-.675-1.5-1.5-1.5zM18 4h-6V2.025h6V4z"/>
+    </symbol>
+    <symbol id="icon-plus" viewBox="0 0 32 32">
+      <path d="M31 12H20V1a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v11H1a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h11v11a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V20h11a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1z"/>
+    </symbol>
+  </defs>
+</svg>
